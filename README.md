@@ -3,12 +3,12 @@
 
 Um editor simples de código online, com o Easy Code você pode treinar a sintaxe HMTL, CSS sem ajuda de um auto-complete dos editores de código.
 
-__Você pode ver esse projeto bem  [Aqui](https://www.seuSite.com.br)__
+__Você pode ver esse projeto bem  [Aqui](https://dener-garcia.github.io/easy-code/)__
 
 
 🖥️ Sessão Home                                        | 🖥️ Sessão Playground                                        | 🖥️ Sessão cards   
 :----------:                                            | :--------------:                                        | :--------------: 
-<img src="/public/screenshot-1.jpg" />   | <img src="/public/screenshot-2.jpg" />   | <img src="/public/screenshot-3.jpg" /> 
+<img src="/public/screenshot-desktop-1.png" />   | <img src="/public/screenshot-desktop-2.png" />   | <img src="/public/screenshot-desktop-3.png" /> 
 
 ## ⚙️ Funcionalidades
 
