@@ -137,7 +137,8 @@ main{
     display: none;
     max-width: 50%;
     width: 100%;
-    height: 8rem;
+    min-height: 8rem;
+    height: 100%;
     padding: 2rem;
     margin: auto;
     background: rgba( 240, 244, 249, 0.6 );
