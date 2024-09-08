@@ -215,6 +215,7 @@ main{
 
 .tag-container a:hover{
     background-color: #0C56E9 ;
+    color: #fff;
 }
 
 footer{
