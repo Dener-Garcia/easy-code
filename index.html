@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./style.css" rel="stylesheet">
+    <title>Easy Code </title>
+</head>
+<body>
+
+    <div class="effect"></div>
+    <div class="effect2"></div>
+    <header>
+        <div class="title">
+            <h1>Easy Code, seu editor online de HTML e CSS</h1>
+            <p>Que tal testar suas habilidade de dev e sua memória, crie seu HTML sem ajuda de um auto-complete ou veja as tags mais utilizadas do HTML e se inspire!</p>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <section class="test-area">
+                <div class="test-container">
+                    <h3>Use sua criatividade ou escolha uma tag HTML para praticar</h3>
+                    <div class="code-containers">
+                        <div class="html-input">
+                            <label for="htmlarea">Insira seu HTML aqui</label>
+                            <textarea id="htmlarea" class="code-area" placeholder="Adicione seu html aqui, Ex: <p>Oi</p>"></textarea>
+                        </div>
+                        <div class="css-input">
+                            <label for="cssarea">Personalize com CSS</label>
+                            <textarea id="cssarea" class="style-area" placeholder="Adicione o nome da propriedade e seu valor. Ex: color: red"></textarea>
+                        </div>
+                    </div>
+                    <button class="btn-test-code">Testar Código</button>
+                </div>
+            </section>
+            <div class="output"></div>
+        </section>
+
+
+        <h5 class="title-tags">Conheça as principais tags HTML e para que elas servem</h5>
+        <section class="tags-section">
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>H1 - Título Principal</h4>
+                    <p>A tag H1 é a mais importante, servindo como o título principal da página. É essencial para SEO e para a organização do conteúdo.</p>
+                    <div class="code-container"><code>&lt;h1&gt; Texto do Título &lt;/h1&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>H2 - Subtítulo</h4>
+                    <p>A tag H2 é usada para subtítulos, organizando o conteúdo em seções. Importante para hierarquizar informações e melhorar a navegação.</p>
+                    <div class="code-container"><code>&lt;h2&gt; Texto do Subtítulo &lt;/h2&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>H3 - Subdivisão de Seção</h4>
+                    <p>A tag H3 é utilizada para subdividir seções definidas por H2, ajudando a detalhar ainda mais o conteúdo da página.</p>
+                    <div class="code-container"><code>&lt;h3&gt; Texto da Subdivisão &lt;/h3&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>H4 - Subdivisão de Subdivisão</h4>
+                    <p>A tag H4 cria subseções dentro das seções definidas por H3, permitindo uma organização mais detalhada do conteúdo.</p>
+                    <div class="code-container"><code>&lt;h4&gt; Texto da Subdivisão de Subdivisão &lt;/h4&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>H5 - Subdivisão Adicional</h4>
+                    <p>A tag H5 é usada para ainda mais subdivisões de conteúdo, sendo útil para uma estrutura hierárquica profunda.</p>
+                    <div class="code-container"><code>&lt;h5&gt; Texto da Subdivisão Adicional &lt;/h5&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>H6 - Subdivisão Final</h4>
+                    <p>A tag H6 é a menor e mais específica subdivisão, ajudando a detalhar o conteúdo em níveis muito específicos.</p>
+                    <div class="code-container"><code>&lt;h6&gt; Texto da Subdivisão Final &lt;/h6&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>p - Parágrafo</h4>
+                    <p>A tag p define um parágrafo de texto, separando o conteúdo em blocos de texto distintos e legíveis.</p>
+                    <div class="code-container"><code>&lt;p&gt; Texto do Parágrafo &lt;/p&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>a - Link</h4>
+                    <p>A tag a cria links para outras páginas ou recursos. É essencial para navegação e conexões entre páginas.</p>
+                    <div class="code-container"><code>&lt;a href="url"&gt; Texto do Link &lt;/a&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>img - Imagem</h4>
+                    <p>A tag img insere imagens na página. É usada para adicionar elementos visuais ao conteúdo.</p>
+                    <div class="code-container"><code>&lt;img src="url" alt="Descrição"&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>figure - Figura</h4>
+                    <p>A tag figure é usada para agrupar conteúdo visual, como imagens, junto com uma legenda opcional usando a tag figcaption.</p>
+                    <div class="code-container"><code>&lt;figure&gt;&lt;img src="imagem.jpg" alt="Descrição"&gt;&lt;figcaption&gt; Legenda &lt;/figcaption&gt;&lt;/figure&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>ul - Lista Não Ordenada</h4>
+                    <p>A tag ul cria uma lista não ordenada com itens de lista definidos por LI, útil para apresentar itens sem uma ordem específica.</p>
+                    <div class="code-container"><code>&lt;ul&gt;&lt;li&gt; Item &lt;/li&gt;&lt;/ul&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>ol - Lista Ordenada</h4>
+                    <p>A tag ol cria uma lista ordenada, onde os itens são numerados. Ideal para listar itens em uma sequência específica.</p>
+                    <div class="code-container"><code>&lt;ol&gt;&lt;li&gt; Item &lt;/li&gt;&lt;/ol&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>li - Item de Lista</h4>
+                    <p>A tag li é usada dentro de UL ou OL para definir cada item da lista. Ela estrutura os itens dentro de listas.</p>
+                    <div class="code-container"><code>&lt;li&gt; Item &lt;/li&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>div - Divisão</h4>
+                    <p>A tag div é um contêiner genérico usado para agrupar outros elementos e aplicar estilos ou scripts.</p>
+                    <div class="code-container"><code>&lt;div&gt; Conteúdo &lt;/div&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>section - Seção</h4>
+                    <p>A tag section define uma seção genérica de um documento, útil para dividir o conteúdo em partes temáticas.</p>
+                    <div class="code-container"><code>&lt;section&gt; Conteúdo &lt;/section&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>         
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>span - Span</h4>
+                    <p>A tag span é usada para agrupar texto ou outros elementos em linha para estilização ou manipulação com CSS.</p>
+                    <div class="code-container"><code>&lt;span&gt; Texto &lt;/span&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>article - Artigo</h4>
+                    <p>A tag article define um conteúdo independente, como um post de blog ou uma notícia, que pode ser distribuído e reutilizado.</p>
+                     <div class="code-container"><code>&lt;article&gt; Texto &lt;/article&gt;</code></div>  
+                </div>
+                <a href=#top>Praticar</a>  
+            </div>  
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>header - Cabeçalho</h4>
+                    <p>A tag header define uma seção introdutória ou cabeçalho de um documento, geralmente contendo títulos e navegação.</p>
+                    <div class="code-container"><code>&lt;header&gt; Conteúdo &lt;/header&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>footer - Rodapé</h4>
+                    <p>A tag footer define o rodapé de uma página ou seção, geralmente contendo informações de contato e direitos autorais.</p>
+                    <div class="code-container"><code>&lt;footer&gt; Conteúdo &lt;/footer&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>nav - Navegação</h4>
+                    <p>A tag nav é usada para definir seções de navegação dentro de um site, contendo links para outras páginas ou seções.</p>
+                    <div class="code-container"><code>&lt;nav&gt; Links &lt;/nav&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>aside - Lateral</h4>
+                    <p>A tag aside define conteúdo lateral ou complementar, como barras laterais e informações adicionais relevantes.</p>
+                    <div class="code-container"><code>&lt;aside&gt; Conteúdo &lt;/aside&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>form - Formulário</h4>
+                    <p>A tag form é usada para criar formulários, permitindo a coleta de dados dos usuários através de campos de entrada e botões.</p>
+                    <div class="code-container"><code>&lt;form&gt; Campos &lt;/form&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>label - Rótulo</h4>
+                    <p>A tag label define um rótulo para um elemento de formulário, facilitando a acessibilidade e a associação entre rótulos e campos.</p>
+                    <div class="code-container"><code>&lt;label for="id"&gt; Texto &lt;/label&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>input - Entrada</h4>
+                    <p>A tag input define campos de entrada dentro de um formulário, onde os usuários podem inserir dados como texto ou seleções.</p>
+                    <div class="code-container"><code>&lt;input type="text" /&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>textarea - Área de Texto</h4>
+                    <p>A tag textarea define uma área de texto multilinha onde os usuários podem inserir uma quantidade maior de texto.</p>
+                    <div class="code-container"><code>&lt;textarea&gt; Texto &lt;/textarea&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>select - Seleção</h4>
+                    <p>A tag select cria um menu suspenso, permitindo ao usuário escolher uma opção entre várias disponíveis que o desenvolvedor define através da tag option, ou sejam são utilizadas em conjunto.</p>
+                    <div class="code-container"><code>&lt;select&gt;&lt;option value="Valor"&gt; Opção &lt;/option&gt;&lt;/select&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+                 
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>button - Botão</h4>
+                    <p>A tag button define um botão clicável que pode ser usado para enviar formulários ou executar ações JavaScript.</p>
+                    <div class="code-container"><code>&lt;button&gt; Texto &lt;/button&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>table - Tabela</h4>
+                    <p>A tag table cria uma tabela para exibir dados em linhas e colunas, estruturando informações de forma tabular.</p>
+                    <div class="code-container"><code>&lt;table&gt;&lt;tr&gt;&lt;td&gt; Dados &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>iframe - Inline Frame</h4>
+                    <p>A tag iframe permite embutir outro documento HTML dentro do documento atual, útil para incorporar conteúdo externo.</p>
+                    <div class="code-container"><code>&lt;iframe src="https://example.com"&gt;&lt;/iframe&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>abbr - Abreviação</h4>
+                    <p>A tag abbr define uma abreviação ou sigla, proporcionando uma expansão opcional com o atributo TITLE.</p>
+                    <div class="code-container"><code>&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>code - Código</h4>
+                    <p>A tag code é usada para exibir texto como código fonte, tipicamente dentro de blocos ou trechos de código.</p>
+                    <div class="code-container"><code>&lt;code&gt; var x = 10; &lt;/code&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>blockquote - Citação</h4>
+                    <p>A tag blockquote é usada para citar longos trechos de texto, geralmente de outras fontes, com uma formatação especial.</p>
+                    <div class="code-container"><code>&lt;blockquote&gt; Citação &lt;/blockquote&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>address - Endereço</h4>
+                    <p>A tag address é usada para fornecer informações de contato ou endereços relacionados ao conteúdo do documento.</p>
+                    <div class="code-container"><code>&lt;address&gt; Contato: email@example.com &lt;/address&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>details - Detalhes</h4>
+                    <p>A tag details cria um widget interativo que permite ao usuário visualizar e ocultar informações adicionais ao clicar.</p>
+                    <div class="code-container"><code>&lt;details&gt;&lt;summary&gt; Título &lt;/summary&gt; Conteúdo &lt;/details&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>time - Tempo</h4>
+                    <p>A tag time é usada para definir datas e horários em um formato que pode ser facilmente interpretado por máquinas e buscadores.</p>
+                    <div class="code-container"><code>&lt;time datetime="2024-09-07"&gt; 7 de setembro de 2024 &lt;/time&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>data - Dados</h4>
+                    <p>A tag data é usada para associar valores de dados a uma representação de texto, útil para análise de dados e manipulação.</p>
+                    <div class="code-container"><code>&lt;data value="2024-09-07"&gt; 7 de setembro de 2024 &lt;/data&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>progress - Progresso</h4>
+                    <p>A tag progress exibe um indicador de progresso para uma tarefa, útil para mostrar o avanço de processos ou carregamentos.</p>
+                    <div class="code-container"><code>&lt;progress value="50" max="100"&gt; 50% &lt;/progress&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>meter - Medidor</h4>
+                    <p>A tag meter exibe uma medição dentro de um intervalo conhecido, como progresso ou quantidades relativas.</p>
+                    <div class="code-container"><code>&lt;meter value="0.6" min="0" max="1"&gt; 60% &lt;/meter&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>output - Saída</h4>
+                    <p>A tag output exibe o resultado de cálculos ou ações realizadas por scripts, útil para mostrar resultados interativos.</p>
+                    <div class="code-container"><code>&lt;output for="campo" name="resultado"&gt; Resultado &lt;/output&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>svg - Gráficos Vetoriais</h4>
+                    <p>A tag svg é usada para criar gráficos vetoriais escaláveis e manipuláveis diretamente no HTML, ideal para gráficos e ícones.</p>
+                    <div class="code-container"><code>&lt;svg width="100" height="100"&gt;&lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /&gt;&lt;/svg&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div> 
+
+            <div class="tag-container">
+                <div class="tag">
+                    <h4>ruby - Ruby</h4>
+                    <p>A tag ruby define anotações ou caracteres adicionais para textos, comumente usada para mostrar caracteres de ruby em textos em idiomas como o japonês.</p>
+                    <div class="code-container"><code>&lt;ruby&gt; 漢字&lt;rt&gt;kanji&lt;/rt&gt;&lt;/ruby&gt;</code></div>
+                </div>
+                <a href=#top>Praticar</a>
+            </div>
+            
+
+
+        </section>
+
+    </main>
+    <footer>
+<h6>Desenvolvido por <a href="https://www.linkedin.com/in/denergarcia/">Dener Garcia</a></h6>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
