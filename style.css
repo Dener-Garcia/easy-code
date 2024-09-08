@@ -213,7 +213,7 @@ main{
     color: #26272a;
 }
 
-.tag-container button:hover{
+.tag-container a:hover{
     background-color: #0C56E9 ;
 }
 
@@ -242,5 +242,29 @@ footer{
  .test-area {
     padding: 0;
  }
+
+    .effect{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 999px;
+    background-color: #2269f0;
+    z-index: -100;
+    filter: blur(50rem);
+}
+
+.effect2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 999px;
+    background-color: #d36679;
+    z-index: -100;
+    filter: blur(22rem);
+}
 
 }
