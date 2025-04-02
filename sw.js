@@ -3,11 +3,11 @@ self.addEventListener("install", (event) => {
       caches.open("easycode-v1").then((cache) => {
         return cache.addAll([
           "/",
-          "/index.html",
-          "/style.css",
-          "/app.js",
-          "public/easy-icon-192x192.png",
-          "public/easy-icon-512x512.png",
+          "./index.html",
+          "./style.css",
+          "./app.js",
+          "./easy-icon-192x192.png",
+          "./easy-icon-512x512.png",
         ]);
       })
     );

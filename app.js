@@ -34,7 +34,7 @@ if (isValidHTML(codeArea.value)) {
 
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("/sw.js").then(() => {
+      navigator.serviceWorker.register("./sw.js").then(() => {
         console.log("Service Worker registrado!");
       }).catch((err) => {
         console.log("Erro ao registrar o Service Worker", err);
